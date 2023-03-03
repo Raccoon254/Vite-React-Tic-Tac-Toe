@@ -4,7 +4,7 @@ body {
 }
 
 * {
-  transition: 2s linear 1s;
+  transition: 0.5s linear 0.5s;
 }
 
 ol,
@@ -27,8 +27,10 @@ ul {
   border: 1px solid #999;
   border-radius: 10px;
   float: left;
-  font-size: 24px;
-  font-weight: bold;
+  color: #675d5d;
+  font: Gilroy;
+  font-size: 35px;
+  font-weight: 500;
   line-height: 100px;
   height: 100px;
   margin: 1px;
@@ -66,6 +68,8 @@ ul {
   border: 1px solid #999;
   border-radius: 10px;
   padding: 2px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 button {
